@@ -33,6 +33,9 @@ runs/detect/mask_detector2/weights/best.pt
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 project/
 ├── dataset/
 │   ├── annotations/
@@ -59,6 +62,7 @@ project/
 ├── dataset.yaml
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
