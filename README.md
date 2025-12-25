@@ -32,33 +32,33 @@ runs/detect/mask_detector2/weights/best.pt
 ---
 
 ## 📂 Project Structure
+
 project/
-├─ dataset/
-│ ├─annotations/
-│ ├─images/
-│ | ├─train/
-│ | ├─val/
-│ ├─labels/
-│ | ├─train/
-│ | ├─val/
-├─ src/
-│ ├─ app.py
-│ ├─ infer_images.py
-│ ├─ prepare_yolo_dataset.py
-│ ├─ split_dataset.py
-│ ├─ train_yolo.py
-├─ runs/
-│ ├─ detect/
-│ ├─ mask_detector/
-│ ├─ weights/
-│ ├─ best.pt
-├─results/
-│ ├─ image1.png
-│ ├─ image2.png
-│ ├─ ...
-├─ requirements.txt
-├─ dataset.yaml
-├─ README.md
+├── dataset/
+│   ├── annotations/
+│   ├── images/
+│   │   ├── train/
+│   │   └── val/
+│   └── labels/
+│       ├── train/
+│       └── val/
+├── src/
+│   ├── app.py
+│   ├── infer_images.py
+│   ├── prepare_yolo_dataset.py
+│   ├── split_dataset.py
+│   └── train_yolo.py
+├── runs/
+│   └── detect/
+│       └── mask_detector/
+│           ├── weights/
+│           │   └── best.pt
+│           └── results/
+│               ├── image1.png
+│               └── image2.png
+├── dataset.yaml
+├── requirements.txt
+└── README.md
 
 
 ---
